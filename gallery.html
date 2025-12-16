@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Pickmore</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <h1>Pickmore</h1>
+                    <span class="logo-tagline">Fresh & Delicious</span>
+                </div>
+                <div class="nav-menu" id="navMenu">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="menu.html" class="nav-link">Menu</a>
+                    <a href="quality.html" class="nav-link">Quality</a>
+                    <a href="gallery.html" class="nav-link active">Gallery</a>
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </div>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <h1>Our Gallery</h1>
+        <p>A visual journey through our delicious offerings and welcoming atmosphere</p>
+    </section>
+
+    <!-- Gallery Filter -->
+    <section class="gallery-filter">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="food">Food</button>
+                <button class="filter-btn" data-filter="restaurant">Restaurant</button>
+                <button class="filter-btn" data-filter="team">Our Team</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Grid -->
+    <section class="gallery-section">
+        <div class="container">
+            <div class="gallery-grid">
+                <!-- Food Images -->
+                <div class="gallery-item" data-category="food">
+                    <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&h=600&fit=crop" alt="Delicious Pizza">
+                    <div class="gallery-overlay">
+                        <h3>Cheese Burst Pizza</h3>
+                        <p>Our signature pizza</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="food">
+                    <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600&h=600&fit=crop" alt="Juicy Burger">
+                    <div class="gallery-overlay">
+                        <h3>Classic Burger</h3>
+                        <p>Juicy and flavorful</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="food">
+                    <img src="https://images.unsplash.com/photo-1571997478779-2adcbbe9ab2f?w=600&h=600&fit=crop" alt="Pepperoni Pizza">
+                    <div class="gallery-overlay">
+                        <h3>Pepperoni Pizza</h3>
+                        <p>Loaded with toppings</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="food">
+                    <img src="https://images.unsplash.com/photo-1588137378633-dea1336ce1e2?w=600&h=600&fit=crop" alt="Loaded Fries">
+                    <div class="gallery-overlay">
+                        <h3>Loaded Fries</h3>
+                        <p>Crispy and cheesy</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="food">
+                    <img src="https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=600&h=600&fit=crop" alt="Chicken Wings">
+                    <div class="gallery-overlay">
+                        <h3>Crispy Wings</h3>
+                        <p>Perfectly seasoned</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="food">
+                    <img src="https://images.unsplash.com/photo-1570831739435-6601aa3fa4fb?w=600&h=600&fit=crop" alt="Milkshake">
+                    <div class="gallery-overlay">
+                        <h3>Chocolate Shake</h3>
+                        <p>Rich and creamy</p>
+                    </div>
+                </div>
+
+                <!-- Restaurant Images -->
+                <div class="gallery-item" data-category="restaurant">
+                    <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?w=600&h=600&fit=crop" alt="Restaurant Interior">
+                    <div class="gallery-overlay">
+                        <h3>Cozy Atmosphere</h3>
+                        <p>Comfortable seating</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="restaurant">
+                    <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=600&fit=crop" alt="Dining Area">
+                    <div class="gallery-overlay">
+                        <h3>Modern Dining</h3>
+                        <p>Spacious and bright</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="restaurant">
+                    <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=600&h=600&fit=crop" alt="Restaurant Ambiance">
+                    <div class="gallery-overlay">
+                        <h3>Warm Ambiance</h3>
+                        <p>Perfect for families</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="restaurant">
+                    <img src="https://images.unsplash.com/photo-1559329007-40df8a9345d8?w=600&h=600&fit=crop" alt="Counter Area">
+                    <div class="gallery-overlay">
+                        <h3>Order Counter</h3>
+                        <p>Quick service</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="restaurant">
+                    <img src="https://images.unsplash.com/photo-1590846406792-0adc7f938f1d?w=600&h=600&fit=crop" alt="Outdoor Seating">
+                    <div class="gallery-overlay">
+                        <h3>Outdoor Seating</h3>
+                        <p>Fresh air dining</p>
+                    </div>
+                </div>
+
+                <!-- Team Images -->
+                <div class="gallery-item" data-category="team">
+                    <img src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=600&h=600&fit=crop" alt="Chef at Work">
+                    <div class="gallery-overlay">
+                        <h3>Our Chefs</h3>
+                        <p>Masters of flavor</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="team">
+                    <img src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=600&h=600&fit=crop" alt="Kitchen Team">
+                    <div class="gallery-overlay">
+                        <h3>Kitchen Team</h3>
+                        <p>Working together</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="team">
+                    <img src="https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?w=600&h=600&fit=crop" alt="Staff Members">
+                    <div class="gallery-overlay">
+                        <h3>Friendly Staff</h3>
+                        <p>Here to serve you</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="food">
+                    <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=600&h=600&fit=crop" alt="Ice Cream">
+                    <div class="gallery-overlay">
+                        <h3>Ice Cream Sundae</h3>
+                        <p>Sweet treat</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="food">
+                    <img src="https://images.unsplash.com/photo-1550547660-d9450f859349?w=600&h=600&fit=crop" alt="Double Burger">
+                    <div class="gallery-overlay">
+                        <h3>Double Burger</h3>
+                        <p>Double the delicious</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="restaurant">
+                    <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&h=600&fit=crop" alt="Restaurant View">
+                    <div class="gallery-overlay">
+                        <h3>Inviting Space</h3>
+                        <p>Come dine with us</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Pickmore</h3>
+                    <p>Delivering happiness, one meal at a time. Fresh ingredients, bold flavors, and unbeatable service.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="quality.html">Quality</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li>📍 123 Food Street, City</li>
+                        <li>📞 +1 234 567 8900</li>
+                        <li>✉️ info@pickmore.com</li>
+                        <li>🕐 9:00 AM - 11:00 PM</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-icon">📘</a>
+                        <a href="#" class="social-icon">📷</a>
+                        <a href="#" class="social-icon">🐦</a>
+                        <a href="#" class="social-icon">📺</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Pickmore. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/1234567890?text=Hi%20Pickmore!%20I%20want%20to%20order%20food" class="whatsapp-float" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>

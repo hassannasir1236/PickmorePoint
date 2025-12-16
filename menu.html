@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Pickmore</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <h1>Pickmore</h1>
+                    <span class="logo-tagline">Fresh & Delicious</span>
+                </div>
+                <div class="nav-menu" id="navMenu">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="menu.html" class="nav-link active">Menu</a>
+                    <a href="quality.html" class="nav-link">Quality</a>
+                    <a href="gallery.html" class="nav-link">Gallery</a>
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </div>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <h1>Our Menu</h1>
+        <p>Explore our delicious selection of food and beverages</p>
+    </section>
+
+    <!-- Menu Categories -->
+    <section class="menu-categories">
+        <div class="container">
+            <div class="category-tabs">
+                <button class="tab-btn active" data-category="deals">🎁 Deals</button>
+                <button class="tab-btn" data-category="pizza">🍕 Pizza</button>
+                <button class="tab-btn" data-category="burgers">🍔 Burgers</button>
+                <button class="tab-btn" data-category="sides">🍟 Sides</button>
+                <button class="tab-btn" data-category="drinks">🥤 Drinks</button>
+                <button class="tab-btn" data-category="desserts">🍰 Desserts</button>
+            </div>
+        </div>
+    </section>
+
+   <!-- Deals Section -->
+    <section class="menu-section" id="deals">
+        <div class="container">
+            <h2 class="section-title">Special Deals</h2>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1571997478779-2adcbbe9ab2f?w=500&h=400&fit=crop" alt="Family Deal">
+                    <div class="menu-item-content">
+                        <span class="badge">Save 35%</span>
+                        <h3>Family Feast</h3>
+                        <p>2 Large Pizzas + 2L Drink + Garlic Bread</p>
+                        <span class="price">PKR 12,600</span>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1625869016774-3a92be2ae2cd?w=500&h=400&fit=crop" alt="Mega Deal">
+                    <div class="menu-item-content">
+                        <span class="badge">Best Value</span>
+                        <h3>Mega Deal</h3>
+                        <p>1 Large Pizza + 2 Burgers + 4 Drinks + Fries</p>
+                        <span class="price">PKR 14,400</span>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?w=500&h=400&fit=crop" alt="Lunch Deal">
+                    <div class="menu-item-content">
+                        <span class="badge">Lunch Special</span>
+                        <h3>Lunch Deal</h3>
+                        <p>1 Burger + Fries + Drink</p>
+                        <span class="price">PKR 4,700</span>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="https://www.timessupermarkets.com/sites/default/files/styles/image_400x280sc/public/Deluxe-Wing.png?itok=ygnogIrn" alt="Party Deal">
+                    <div class="menu-item-content">
+                        <span class="badge">Party Time</span>
+                        <h3>Party Platter</h3>
+                        <p>3 Large Pizzas + 12 Wings + 2L Drink</p>
+                        <span class="price">PKR 19,800</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pizza Section -->
+    <section class="menu-section" id="pizza" style="display: none;">
+        <div class="container">
+            <h2 class="section-title">Pizza Collection</h2>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=500&h=400&fit=crop" alt="Margherita">
+                    <div class="menu-item-content">
+                        <h3>Margherita</h3>
+                        <p>Classic tomato, mozzarella, and basil</p>
+                        <span class="price">PKR 3,950</span>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1571997478779-2adcbbe9ab2f?w=500&h=400&fit=crop" alt="Pepperoni">
+                    <div class="menu-item-content">
+                        <span class="badge">Popular</span>
+                        <h3>Pepperoni</h3>
+                        <p>Loaded with pepperoni and extra cheese</p>
+                        <span class="price">PKR 5,040</span>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1628840042765-356cda07504e?w=500&h=400&fit=crop" alt="BBQ Chicken">
+                    <div class="menu-item-content">
+                        <h3>BBQ Chicken</h3>
+                        <p>Grilled chicken with BBQ sauce and onions</p>
+                        <span class="price">PKR 5,400</span>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=500&h=400&fit=crop" alt="Veggie Supreme">
+                    <div class="menu-item-content">
+                        <h3>Veggie Supreme</h3>
+                        <p>Bell peppers, olives, mushrooms, tomatoes</p>
+                        <span class="price">PKR 4,700</span>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1595854341625-f33ee10dbf94?w=500&h=400&fit=crop" alt="Meat Lovers">
+                    <div class="menu-item-content">
+                        <span class="badge">Bestseller</span>
+                        <h3>Meat Lovers</h3>
+                        <p>Beef, chicken, pepperoni, and sausage</p>
+                        <span class="price">PKR 6,120</span>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?w=500&h=400&fit=crop" alt="Hawaiian">
+                    <div class="menu-item-content">
+                        <h3>Hawaiian</h3>
+                        <p>Ham, pineapple, and cheese</p>
+                        <span class="price">PKR 5,040</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Burgers Section -->
+    <section class="menu-section" id="burgers" style="display: none;">
+        <div class="container">
+            <h2 class="section-title">Burger Collection</h2>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=500&h=400&fit=crop" alt="Classic Burger">
+                    <div class="menu-item-content">
+                        <h3>Classic Beef Burger</h3>
+                        <p>Juicy beef patty, lettuce, tomato, onions</p>
+                        <span class="price">PKR 3,240</span>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1550547660-d9450f859349?w=500&h=400&fit=crop" alt="Cheese Burger">
+                    <div class="menu-item-content">
+                        <span class="badge">Popular</span>
+                        <h3>Double Cheese Burger</h3>
+                        <p>Two beef patties with double cheese</p>
+                        <span class="price">PKR 4,320</span>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1572802419224-296b0aeee0d9?w=500&h=400&fit=crop" alt="Chicken Burger">
+                    <div class="menu-item-content">
+                        <h3>Crispy Chicken Burger</h3>
+                        <p>Crispy fried chicken with special sauce</p>
+                        <span class="price">PKR 3,600</span>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=500&h=400&fit=crop" alt="Spicy Burger">
+                    <div class="menu-item-content">
+                        <span class="badge">Hot 🔥</span>
+                        <h3>Spicy Zinger</h3>
+                        <p>Spicy chicken fillet with jalapeños</p>
+                        <span class="price">PKR 3,950</span>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1520072959219-c595dc870360?w=500&h=400&fit=crop" alt="Mushroom Burger">
+                    <div class="menu-item-content">
+                        <h3>Mushroom Swiss Burger</h3>
+                        <p>Beef patty with mushrooms and Swiss cheese</p>
+                        <span class="price">PKR 4,680</span>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1534790566855-4cb788d389ec?w=500&h=400&fit=crop" alt="Veggie Burger">
+                    <div class="menu-item-content">
+                        <h3>Veggie Burger</h3>
+                        <p>Plant-based patty with fresh vegetables</p>
+                        <span class="price">PKR 3,600</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sides Section -->
+    <section class="menu-section" id="sides" style="display: none;">
+        <div class="container">
+            <h2 class="section-title">Sides & Appetizers</h2>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=500&h=400&fit=crop" alt="Fries">
+                    <div class="menu-item-content">
+                        <h3>French Fries</h3>
+                        <p>Crispy golden fries</p>
+                        <span class="price">PKR 1,440</span>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1588137378633-dea1336ce1e2?w=500&h=400&fit=crop" alt="Loaded Fries">
+                    <div class="menu-item-content">
+                        <span class="badge">Popular</span>
+                        <h3>Loaded Fries</h3>
+                        <p>Fries with cheese, bacon, and sauce</p>
+                        <span class="price">PKR 2,520</span>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=500&h=400&fit=crop" alt="Chicken Wings">
+                    <div class="menu-item-content">
+                        <h3>Chicken Wings (6pc)</h3>
+                        <p>Crispy wings with your choice of sauce</p>
+                        <span class="price">PKR 2,880</span>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="https://e7.pngegg.com/pngimages/142/28/png-clipart-chicken-nuggets-and-dips-yellow-leaves-thumbnail.png" alt="Nuggets">
+                    <div class="menu-item-content">
+                        <h3>Chicken Nuggets (10pc)</h3>
+                        <p>Golden crispy nuggets</p>
+                        <span class="price">PKR 2,160</span>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="https://img.pikbest.com/png-images/20240925/deep-fried-onion-rings_10886939.png!bw700" alt="Onion Rings">
+                    <div class="menu-item-content">
+                        <h3>Onion Rings</h3>
+                        <p>Crispy battered onion rings</p>
+                        <span class="price">PKR 1,800</span>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuw1IY3-UYuRjFk5xbH-P4lZtGC65foft-aA&s" alt="Mozzarella Sticks">
+                    <div class="menu-item-content">
+                        <h3>Mozzarella Sticks (6pc)</h3>
+                        <p>Fried cheese sticks with marinara</p>
+                        <span class="price">PKR 2,520</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Drinks Section -->
+    <section class="menu-section" id="drinks" style="display: none;">
+        <div class="container">
+            <h2 class="section-title">Beverages</h2>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1581006852262-e4307cf6283a?w=500&h=400&fit=crop" alt="Soft Drinks">
+                    <div class="menu-item-content">
+                        <h3>Soft Drinks</h3>
+                        <p>Coke, Sprite, Fanta (Regular/Large)</p>
+                        <span class="price">PKR 1,080</span>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="https://static.vecteezy.com/system/resources/previews/055/133/781/non_2x/refreshing-iced-tea-with-a-lemon-twist-and-fresh-mint-leaves-served-in-a-clear-glass-isolated-on-transparent-background-free-png.png" alt="Iced Tea">
+                    <div class="menu-item-content">
+                        <h3>Iced Tea</h3>
+                        <p>Refreshing lemon iced tea</p>
+                        <span class="price">PKR 1,250</span>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1570831739435-6601aa3fa4fb?w=500&h=400&fit=crop" alt="Milkshake">
+                    <div class="menu-item-content">
+                        <span class="badge">Popular</span>
+                        <h3>Milkshakes</h3>
+                        <p>Chocolate, Vanilla, Strawberry</p>
+                        <span class="price">PKR 2,160</span>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzw22trIDvNmLblnkTaDrm5DVJoLSWUUq_Vw&s" alt="Fresh Juice">
+                    <div class="menu-item-content">
+                        <h3>Fresh Juice</h3>
+                        <p>Orange, Apple, Mango</p>
+                        <span class="price">PKR 1,800</span>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1497534446932-c925b458314e?w=500&h=400&fit=crop" alt="Water">
+                    <div class="menu-item-content">
+                        <h3>Bottled Water</h3>
+                        <p>500ml mineral water</p>
+                        <span class="price">PKR 720</span>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="https://img.freepik.com/free-psd/indulge-this-delightful-mochaccino-rich-blend-coffee-chocolate-creamy-whipped-topping-perfect-cozy-treat_191095-82072.jpg?semt=ais_hybrid&w=740&q=80" alt="Coffee">
+                    <div class="menu-item-content">
+                        <h3>Coffee</h3>
+                        <p>Hot/Iced Latte or Cappuccino</p>
+                        <span class="price">PKR 1,620</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Desserts Section -->
+    <section class="menu-section" id="desserts" style="display: none;">
+        <div class="container">
+            <h2 class="section-title">Desserts & Ice Cream</h2>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500&h=400&fit=crop" alt="Ice Cream">
+                    <div class="menu-item-content">
+                        <h3>Ice Cream Sundae</h3>
+                        <p>3 scoops with toppings</p>
+                        <span class="price">PKR 2,520</span>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?w=500&h=400&fit=crop" alt="Brownies">
+                    <div class="menu-item-content">
+                        <span class="badge">Popular</span>
+                        <h3>Chocolate Brownie</h3>
+                        <p>Warm brownie with vanilla ice cream</p>
+                        <span class="price">PKR 2,160</span>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=500&h=400&fit=crop" alt="Cheesecake">
+                    <div class="menu-item-content">
+                        <h3>New York Cheesecake</h3>
+                        <p>Creamy cheesecake with berry compote</p>
+                        <span class="price">PKR 2,520</span>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbDPlhSTepbkRllOYKvyN7LVTojjRX0yGSZA&s" alt="Apple Pie">
+                    <div class="menu-item-content">
+                        <h3>Apple Pie</h3>
+                        <p>Classic apple pie with cinnamon</p>
+                        <span class="price">PKR 1,800</span>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?w=500&h=400&fit=crop" alt="Donuts">
+                    <div class="menu-item-content">
+                        <h3>Glazed Donuts (3pc)</h3>
+                        <p>Fresh glazed donuts</p>
+                        <span class="price">PKR 1,800</span>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1624353365286-3f8d62daad51?w=500&h=400&fit=crop" alt="Cookies">
+                    <div class="menu-item-content">
+                        <h3>Chocolate Chip Cookies (4pc)</h3>
+                        <p>Soft baked cookies</p>
+                        <span class="price">PKR 1,440</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Pickmore</h3>
+                    <p>Delivering happiness, one meal at a time. Fresh ingredients, bold flavors, and unbeatable service.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="quality.html">Quality</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li>📍 123 Food Street, City</li>
+                        <li>📞 +1 234 567 8900</li>
+                        <li>✉️ info@pickmore.com</li>
+                        <li>🕐 9:00 AM - 11:00 PM</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-icon">📘</a>
+                        <a href="#" class="social-icon">📷</a>
+                        <a href="#" class="social-icon">🐦</a>
+                        <a href="#" class="social-icon">📺</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Pickmore. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/1234567890?text=Hi%20Pickmore!%20I%20want%20to%20order%20food" class="whatsapp-float" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
